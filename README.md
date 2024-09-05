@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Synergy-Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple CRUD Application built using React, where we can CREATE, READ, UPDATE, and DELETE user data. This project uses the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) to simulate fetching, creating, updating, and deleting user data.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Read Operation**: This application allows us to fetch and display a list of users from the JSONPlaceholder API in a list or table format. Each user entry displays basic information like name, email, and phone.
+  
+- **Create Operation**: We can create a new user by filling out a form and submitting it. The data will be POSTed to the JSONPlaceholder API to simulate adding a new user (though the data won't persist).
 
-### `npm start`
+- **Update Operation**: Users can update existing user data by clicking an "Edit" button. This opens a form pre-filled with the current data, and after submitting, a PUT request is made to simulate the update.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Delete Operation**: Users can delete an entry from the list by clicking the "Delete" button, which triggers a DELETE request to the API to simulate removing the user.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Additional Features
 
-### `npm test`
+- **Responsive Design**: The application is fully responsive, ensuring a smooth user experience on both desktop and mobile devices.
+  
+- **React Router**: Different views are managed using `react-router`, providing a clean navigation system between the home page and detailed user views.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Error Handling**: Proper error handling is implemented to notify the user if any API request fails.
 
-### `npm run build`
+- **Skeleton Loader**: A skeleton loader is displayed while data is being fetched from the API, improving user experience during load times.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to get the project up and running on your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Make sure you have [Node.js](https://nodejs.org/) and npm installed on your machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/synergy-project.git
+   cd synergy-project
